@@ -26,6 +26,8 @@
 		C21494482731D6F500233824 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21494472731D6F500233824 /* Budget.storyboard */; };
 		C214944A2731D70E00233824 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21494492731D70E00233824 /* Add.storyboard */; };
 		C214944C2731DD4600233824 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C214944B2731DD4600233824 /* SignIn.storyboard */; };
+		C2390FC9274B356000B5F611 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2390FC8274B356000B5F611 /* Colors.xcassets */; };
+		C2390FCC274C422D00B5F611 /* shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2390FCB274C422D00B5F611 /* shadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		C21494472731D6F500233824 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		C21494492731D70E00233824 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
 		C214944B2731DD4600233824 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		C2390FC8274B356000B5F611 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C2390FCB274C422D00B5F611 /* shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		C21494062731A2DB00233824 /* PlatziFinanzas */ = {
 			isa = PBXGroup;
 			children = (
+				C2390FCA274C41F600B5F611 /* Extensions */,
 				C214942F2731A86500233824 /* Resources */,
 				C214942E2731A83000233824 /* Base */,
 				C214942D2731A82200233824 /* Application */,
@@ -127,6 +132,7 @@
 		C214942F2731A86500233824 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2390FC7274B351B00B5F611 /* Colors */,
 				C21494302731A88300233824 /* Images */,
 			);
 			path = Resources;
@@ -226,6 +232,22 @@
 			path = Statics;
 			sourceTree = "<group>";
 		};
+		C2390FC7274B351B00B5F611 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				C2390FC8274B356000B5F611 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		C2390FCA274C41F600B5F611 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C2390FCB274C422D00B5F611 /* shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +329,7 @@
 				C214943D2731D50600233824 /* Profile.storyboard in Resources */,
 				C214940F2731A2DB00233824 /* Main.storyboard in Resources */,
 				C214944C2731DD4600233824 /* SignIn.storyboard in Resources */,
+				C2390FC9274B356000B5F611 /* Colors.xcassets in Resources */,
 				C21494462731D6C400233824 /* Statics.storyboard in Resources */,
 				C21494482731D6F500233824 /* Budget.storyboard in Resources */,
 				C214944A2731D70E00233824 /* Add.storyboard in Resources */,
@@ -332,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C214940C2731A2DB00233824 /* ViewController.swift in Sources */,
+				C2390FCC274C422D00B5F611 /* shadow.swift in Sources */,
 				C21494082731A2DB00233824 /* AppDelegate.swift in Sources */,
 				C214940A2731A2DB00233824 /* SceneDelegate.swift in Sources */,
 			);
@@ -497,7 +521,7 @@
 				INFOPLIST_FILE = PlatziFinanzas/Base/info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -527,7 +551,7 @@
 				INFOPLIST_FILE = PlatziFinanzas/Base/info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
